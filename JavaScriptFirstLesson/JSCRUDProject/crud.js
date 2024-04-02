@@ -11,9 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	console.log("salom");
 
 	addCardBtn.addEventListener("click", function () {
-		// document.querySelector("#addCardBtn").style.display = "block";
 		createCard();
-		// document.querySelector("#updateCardBtn").style.display = "none";
 		titleInput.value = "";
 		contentInput.value = "";
 		currentCard = null;
@@ -85,9 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	function updateCard(card) {
 		const cardTitle = card.querySelector(".card-title");
 		const cardText = card.querySelector(".card-text");
-		// console.log(document.querySelector("#updateCardBtn").style);
-		// document.querySelector("#addCardBtn").style.display = "block";
-		cardTitle.textContent = titleInput.value || "Title";
-		cardText.textContent = contentInput.value || "Content";
+		cardTitle.textContent = titleInput.value || "Asadulloh";
+		cardText.textContent = contentInput.value || "Tojiyev";
 	}
 });

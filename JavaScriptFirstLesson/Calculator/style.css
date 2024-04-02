@@ -11,14 +11,18 @@ body {
 	padding: 20px;
 	background-color: #f4f4f4;
 	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	transition: 0.5s ease;
+}
+
+.calculator:hover{
+	box-shadow: 0px 0px 20px rgb(13, 164, 13);
 }
 .display {
 	margin-bottom: 10px;
 	padding: 10px;
 	height: 50px;
-	background-color: #fff;
-	border: 1px solid #ccc;
+	background-color: rgb(0, 255, 247);
+	border: 10px solid yellowgreen;
 	overflow: auto;
 	border-radius: 5px;
 	text-align: right;
@@ -55,10 +59,14 @@ button:hover {
 .amal {
     background-color: yellowgreen;
 }
-button:hover {
-    background-color: red;
-}
 
 .amal:hover {
 	background-color: rgb(2, 107, 2);
+}
+
+.amal0{
+	background-color: yellow;
+}
+.amal:hover{
+	background-color: rgb(170, 170, 7);
 }
